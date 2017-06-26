@@ -1,8 +1,4 @@
 '.source.elixir':
-  'pry':
-    'prefix': 'pry'
-    'body': 'IEx.pry'
-'.text.elixir':
   'eex_render_block':
     'prefix': 'show'
     'body': '<%= $1 %>'
