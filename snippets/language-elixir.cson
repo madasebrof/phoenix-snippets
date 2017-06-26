@@ -4,13 +4,13 @@
     'body': 'IEx.pry'
 '.text.elixir':
   'eex_render_block':
-    'prefix': '='
+    'prefix': 'show'
     'body': '<%= $1 %>'
   'eex_exec_block':
-    'prefix': '-'
+    'prefix': 'wrap'
     'body': '<% $1 %>'
   'eex_comment_block':
-    'prefix': '#'
+    'prefix': 'comment'
     'body': '<%# $1 %>'
   'eex_for':
     'prefix': 'for'
